@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-exterior-depan",
-      "name": "EXTERIOR DEPAN",
+      "id": "0-eksterior-depan",
+      "name": "EKSTERIOR DEPAN",
       "levels": [
         {
           "tileSize": 256,
@@ -24,48 +24,48 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.005241327646512417,
+        "pitch": 0.040666316557381066,
+        "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": -0.14613129613796083,
-          "pitch": 0.4145945798470283,
+          "yaw": -0.005339243738230692,
+          "pitch": 0.06860797785883577,
           "rotation": 0,
-          "target": "2-carport"
+          "target": "3-carport"
         },
         {
-          "yaw": 0.033101322247027554,
-          "pitch": -0.7661103325373819,
+          "yaw": -0.008798014640863272,
+          "pitch": -0.550449109278933,
           "rotation": 0,
-          "target": "1-exterior-depan-bird-eye"
+          "target": "1-eksterior-depan-bird-eye"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.3013760878446625,
-          "pitch": -0.08635170068683529,
-          "title": "BATU TEMPEL",
+          "yaw": -0.7247782346589826,
+          "pitch": 0.03378391901435229,
+          "title": "Wall Panel Composite",
           "text": "<br>"
         },
         {
-          "yaw": 0.03733489344218377,
-          "pitch": -0.34447575887428705,
-          "title": "WPC EXTERIOR",
+          "yaw": -0.3604452234749136,
+          "pitch": -0.2389131320353748,
+          "title": "Alderon Single Layer",
           "text": "<br>"
         },
         {
-          "yaw": -1.0026122669835331,
-          "pitch": 0.19930300748068852,
-          "title": "TAMAN",
+          "yaw": -0.5993899765918567,
+          "pitch": 0.23036940983537946,
+          "title": "Batu Tempel",
           "text": "<br>"
         }
       ]
     },
     {
-      "id": "1-exterior-depan-bird-eye",
-      "name": "EXTERIOR DEPAN (BIRD EYE)",
+      "id": "1-eksterior-depan-bird-eye",
+      "name": "EKSTERIOR DEPAN (BIRD EYE)",
       "levels": [
         {
           "tileSize": 256,
@@ -87,53 +87,128 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.0266937671144305,
+        "pitch": 0.7224319635369394,
+        "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 0.04082575128585475,
-          "pitch": 0.12385979991620388,
+          "yaw": -0.016657997891467602,
+          "pitch": 1.3113855163998025,
           "rotation": 0,
-          "target": "3-exterior-belakang-bird-eye"
+          "target": "3-carport"
+        },
+        {
+          "yaw": 0.05420400914395174,
+          "pitch": 0.25704259020775666,
+          "rotation": 0,
+          "target": "2-eksterior-belakang-bird-eye"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.009176326181977501,
-          "pitch": 0.7516748618280857,
-          "title": "WPC EKSTERIOR",
+          "yaw": 0.081326984189106,
+          "pitch": 0.47586555018399324,
+          "title": "Genteng Beton",
+          "text": "Cisangkan"
+        },
+        {
+          "yaw": -0.9682076596596829,
+          "pitch": 0.942425603468962,
+          "title": "Alderon Single Layer",
           "text": "<br>"
         },
         {
-          "yaw": -0.7397372621016487,
-          "pitch": 0.7675730075875009,
-          "title": "BATU TEMPEL",
+          "yaw": 0.04452886315086424,
+          "pitch": 0.8784767501608748,
+          "title": "Wall Panel Composite",
           "text": "<br>"
-        },
-        {
-          "yaw": -0.4759385985760627,
-          "pitch": 1.2739226012552258,
-          "title": "CARPORT",
-          "text": "SCREEDING BETON"
-        },
-        {
-          "yaw": -0.19650889057300347,
-          "pitch": 0.4623599734809325,
-          "title": "ATAP GENTENG BETON",
-          "text": "<br>"
-        },
-        {
-          "yaw": -1.35189330421521,
-          "pitch": 0.9512919799659354,
-          "title": "TAMAN",
-          "text": "<br><div><br></div>"
         }
       ]
     },
     {
-      "id": "2-carport",
+      "id": "2-eksterior-belakang-bird-eye",
+      "name": "EKSTERIOR BELAKANG (BIRD EYE)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": -0.030880847625933683,
+        "pitch": 0.6540251637510632,
+        "fov": 1.3474042771833745
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.1802462017255273,
+          "pitch": 1.093390040576633,
+          "rotation": 0,
+          "target": "13-backyard"
+        },
+        {
+          "yaw": 0.8947453133334164,
+          "pitch": 0.7907166950120832,
+          "rotation": 0,
+          "target": "12-laundry"
+        },
+        {
+          "yaw": -0.027149044797472044,
+          "pitch": -0.15051484130182047,
+          "rotation": 0,
+          "target": "1-eksterior-depan-bird-eye"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.31174619170030304,
+          "pitch": 0.21413472572802128,
+          "title": "Water Tank",
+          "text": "<br>"
+        },
+        {
+          "yaw": 0.48645232964415186,
+          "pitch": 0.3204572029328432,
+          "title": "Skylight",
+          "text": "Solarflat 3mm"
+        },
+        {
+          "yaw": -0.014593133169739758,
+          "pitch": 0.374512326755271,
+          "title": "Dak Beton Eksisting",
+          "text": "<br>"
+        },
+        {
+          "yaw": 0.054839284577754555,
+          "pitch": 0.6399139373063392,
+          "title": "Genteng Beton",
+          "text": "Cisangkan"
+        },
+        {
+          "yaw": -0.05219214708975706,
+          "pitch": 0.10832386922094273,
+          "title": "Genteng Beton",
+          "text": "Cisangkan"
+        }
+      ]
+    },
+    {
+      "id": "3-carport",
       "name": "CARPORT",
       "levels": [
         {
@@ -162,42 +237,48 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.23521417754174223,
-          "pitch": 0.12433015646884726,
+          "yaw": 0.36730846608542045,
+          "pitch": 0.0605069771285649,
           "rotation": 0,
-          "target": "4-foyerguest-room"
+          "target": "4-foyerr-tamu"
         },
         {
-          "yaw": 3.1206409840071228,
-          "pitch": 0.468155583239767,
+          "yaw": 2.6351966203988786,
+          "pitch": 0.1636822082490088,
           "rotation": 0,
-          "target": "0-exterior-depan"
+          "target": "0-eksterior-depan"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.11851974989478364,
-          "pitch": 0.41066324115189445,
-          "title": "TERAS",
-          "text": "Ukuran 1,0 x 3,1 m"
+          "yaw": -0.5276271591481922,
+          "pitch": -0.08253256215591342,
+          "title": "Batu Tempel",
+          "text": "<br>"
         },
         {
-          "yaw": -0.7217181793721856,
-          "pitch": -0.232268181674268,
-          "title": "BATU TEMPEL",
-          "text": "<br><div><br></div>"
+          "yaw": -1.8735538559115277,
+          "pitch": 0.2053677526925064,
+          "title": "Taman",
+          "text": "<br>"
         },
         {
-          "yaw": 0.3923112875713137,
-          "pitch": -0.036475069886083844,
-          "title": "WPC EXTERIOR",
-          "text": "<br><div><br></div>"
+          "yaw": 0.5516151712652864,
+          "pitch": -0.03515577263842928,
+          "title": "Wall Panel Composite",
+          "text": "<br>"
+        },
+        {
+          "yaw": 0.06903277028455435,
+          "pitch": 0.3930610414926736,
+          "title": "Granite 60x60 Matt",
+          "text": "<br>"
         }
       ]
     },
     {
-      "id": "3-exterior-belakang-bird-eye",
-      "name": "EXTERIOR BELAKANG (BIRD EYE)",
+      "id": "4-foyerr-tamu",
+      "name": "FOYER/R. TAMU",
       "levels": [
         {
           "tileSize": 256,
@@ -219,105 +300,30 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.0994393808554257,
-          "pitch": 0.018282844749407445,
-          "rotation": 0,
-          "target": "1-exterior-depan-bird-eye"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.7486855022165173,
-          "pitch": 0.6683509194056896,
-          "title": "KANOPI SKYLIGHT",
-          "text": "GREY"
-        },
-        {
-          "yaw": -0.15670602958539703,
-          "pitch": 1.4506303293189227,
-          "title": "ATAP GENTENG BETON",
-          "text": "<br>"
-        },
-        {
-          "yaw": -0.16431955186165226,
-          "pitch": 0.21000091270228793,
-          "title": "ATAP GENTENG BETON",
-          "text": "<br>"
-        }
-      ]
-    },
-    {
-      "id": "4-foyerguest-room",
-      "name": "FOYER/GUEST ROOM",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.1679808726213956,
-        "pitch": -0.0754563958243537,
+        "yaw": 3.071259782492051,
+        "pitch": 0.020925515540429984,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 2.459892210140846,
-          "pitch": 0.6668633035592819,
+          "yaw": -0.694691703193941,
+          "pitch": 0.6194170252454523,
           "rotation": 0,
           "target": "5-living-room"
-        },
-        {
-          "yaw": 0.5567690650253727,
-          "pitch": 0.03303928067738582,
-          "rotation": 0,
-          "target": "2-carport"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.1873458848806653,
-          "pitch": -0.041659703169038664,
-          "title": "FOYER/GUEST ROOM",
-          "text": "Ukuran Ruangan 3,10 x 2,50 m<div>Tinggi Plafon 3,10 m</div>"
+          "yaw": -2.961657429216549,
+          "pitch": 0.023479629413870384,
+          "title": "Jendela Aluminium 3\"&nbsp;",
+          "text": "<div>Diameter 140 cm</div>"
         },
         {
-          "yaw": -0.2493049879826703,
-          "pitch": -0.07939080524192299,
-          "title": "Jendela Aluminium",
-          "text": "Jendela Aluminium 3\"<div>Ukuran 160 x 200 cm</div>"
-        },
-        {
-          "yaw": 0.5657176003148194,
-          "pitch": 0.20033197511740397,
-          "title": "Pintu Utama",
-          "text": "Kusen Aluminium 4\"<div>Ukuran 90 x 260 cm</div>"
-        },
-        {
-          "yaw": -0.954683011583553,
-          "pitch": -1.5158187450629512,
-          "title": "Plafon Gypsum",
-          "text": "Tinggi 3,1 m"
+          "yaw": 2.559422948267212,
+          "pitch": 0.022493565912547808,
+          "title": "Pintu Blockboard Finish HPL",
+          "text": "Kusen Aluminium 4\"<div>Ukuran 90x260 cm</div>"
         }
       ]
     },
@@ -345,84 +351,60 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.1756528377206568,
-        "pitch": -0.11643152773726761,
+        "yaw": 0.87173056912901,
+        "pitch": 0.048680851103362954,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": 0.8792886373683917,
-          "pitch": -0.026627817150016497,
+          "yaw": -2.263168916051864,
+          "pitch": 0.008402551934288738,
           "rotation": 0,
-          "target": "8-bedroom-2"
+          "target": "8-k-tidur-utama"
         },
         {
-          "yaw": -3.1369716179450435,
-          "pitch": -0.054434514672546896,
+          "yaw": -0.6709056598981533,
+          "pitch": 0.0637685064095983,
           "rotation": 0,
-          "target": "7-bedroom-1"
+          "target": "7-dapur--r-makan"
         },
         {
-          "yaw": -1.5493562834459595,
-          "pitch": 0.02002143061847761,
+          "yaw": 0.0025641997273027073,
+          "pitch": 0.06084277811669381,
           "rotation": 0,
-          "target": "6-dining--kitchen"
+          "target": "6-bar"
         },
         {
-          "yaw": -2.149251368915703,
-          "pitch": -0.10171387692970058,
+          "yaw": -1.2719225958117857,
+          "pitch": -0.04724462206125146,
           "rotation": 0,
-          "target": "10-bathroom-sharing"
+          "target": "11-k-mandi-sharing"
         },
         {
-          "yaw": 1.9657617643967766,
-          "pitch": 0.014060637999980585,
+          "yaw": 3.083239345806321,
+          "pitch": 0.06191189432365185,
           "rotation": 0,
-          "target": "4-foyerguest-room"
+          "target": "4-foyerr-tamu"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.8749192711958802,
-          "pitch": -0.15371237095861545,
-          "title": "Pintu Kamar 2",
-          "text": "Ukuran Pintu 80x240 cm<div>Bahan Blockboard Finish HPL</div>"
-        },
-        {
-          "yaw": -3.1336534771011806,
-          "pitch": -0.21612001896161637,
-          "title": "Pintu Kamar 1",
-          "text": "Ukuran Pintu 80x240 cm<div>Bahan Blockboard Finish HPL</div>"
-        },
-        {
-          "yaw": -1.4531460707756327,
-          "pitch": 0.1585210647226063,
-          "title": "Granit 60x60",
-          "text": "Polished"
-        },
-        {
-          "yaw": -0.9695992198836176,
-          "pitch": -0.8841114482320478,
-          "title": "Plafon Gypsum",
-          "text": "Tinggi 3,10 m"
-        },
-        {
-          "yaw": -0.7270461917498903,
-          "pitch": 0.11252312857689972,
-          "title": "WPC",
+          "yaw": 1.1897287831900236,
+          "pitch": 0.4328538743063852,
+          "title": "Granite 60x60 Polished",
           "text": "<br>"
         },
         {
-          "yaw": -0.16144162045770827,
-          "pitch": 0.4288602838531492,
-          "title": "Living Room",
-          "text": "Ukuran Ruangan 4,4 x 6,0 m"
+          "yaw": -0.3318094956182964,
+          "pitch": -0.8527184503995979,
+          "title": "Plafon Gypsum",
+          "text": "Tinggi 3,10 m dari lantai"
         }
       ]
     },
     {
-      "id": "6-dining--kitchen",
-      "name": "DINING & KITCHEN",
+      "id": "6-bar",
+      "name": "BAR",
       "levels": [
         {
           "tileSize": 256,
@@ -444,279 +426,135 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.09800695030428486,
+        "pitch": 0.020613973642584327,
+        "fov": 1.3474042771833745
       },
       "linkHotspots": [
         {
-          "yaw": -1.2264330250704187,
-          "pitch": 0.009318776027644304,
+          "yaw": -2.6190651526980453,
+          "pitch": 0.17467301824950887,
           "rotation": 0,
-          "target": "12-laundry-room"
-        },
-        {
-          "yaw": 1.3467457020433038,
-          "pitch": 0.22470249025334255,
-          "rotation": 0,
-          "target": "5-living-room"
-        },
-        {
-          "yaw": 1.9481070388653068,
-          "pitch": 0.06152906263790214,
-          "rotation": 0,
-          "target": "10-bathroom-sharing"
-        },
-        {
-          "yaw": -1.7841038303118424,
-          "pitch": 0.045134924667131315,
-          "rotation": 0,
-          "target": "12-laundry-room"
+          "target": "7-dapur--r-makan"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.3623778652720269,
-          "pitch": 0.009370710655987935,
-          "title": "Folding Door",
-          "text": "Ukuran 320x240 cm"
-        },
-        {
-          "yaw": -1.0698356537002507,
-          "pitch": -0.8976238305461095,
-          "title": "Plafon Gypsum",
-          "text": "Tinggi 2,80 m"
-        },
-        {
-          "yaw": 1.220285243321534,
-          "pitch": 0.6541376975779851,
+          "yaw": 0.1853161622390651,
+          "pitch": 0.22615015158218021,
           "title": "Granit 60x60 Polished",
-          "text": "30 cm lebih tinggi dari lantai living room"
-        },
-        {
-          "yaw": -0.586597149395832,
-          "pitch": 0.08763468782255224,
-          "title": "Meja Dapur",
-          "text": "Finish Granit 60x60<div>Tinggi 80 cm</div>"
-        },
-        {
-          "yaw": 0.6878911216793693,
-          "pitch": 0.07777089709610685,
-          "title": "Meja Bar",
-          "text": "Finish Granit 60x60<div>Tinggi 80 cm dari lt. dapur</div>"
-        },
-        {
-          "yaw": -0.8010287570545316,
-          "pitch": -0.07068222844812055,
-          "title": "Jendela Aluminium",
-          "text": "Ukuran 120x50 cm"
-        },
-        {
-          "yaw": -1.7845665673899855,
-          "pitch": 0.2402373504561286,
-          "title": "Pintu Laundry Room",
-          "text": "Kusen Aluminium 3\"<div>Daun Pintu Blockboard Finish HPL</div>"
-        },
-        {
-          "yaw": -2.6778357116144864,
-          "pitch": -0.016865978434841722,
-          "title": "Dinding&nbsp;",
-          "text": "Kamprot Halus Fin. Cat Eksterior"
-        },
-        {
-          "yaw": 2.9509933453746955,
-          "pitch": -0.0679763771191908,
-          "title": "Roster",
-          "text": "Roster 15x30"
-        },
-        {
-          "yaw": -0.12775396955205132,
-          "pitch": 0.40954965000379495,
-          "title": "Dining &amp; Kitchen",
-          "text": "Ukuran Ruangan 8,1 x 6,0 m"
-        }
-      ]
-    },
-    {
-      "id": "7-bedroom-1",
-      "name": "BEDROOM 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.108086434080196,
-          "pitch": -0.0016927156717461145,
-          "rotation": 0,
-          "target": "5-living-room"
-        },
-        {
-          "yaw": 3.0886695027551934,
-          "pitch": 0.05158185766007506,
-          "rotation": 0,
-          "target": "9-bathroom-1"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.06108053648607381,
-          "pitch": -0.06835706924138663,
-          "title": "Jendela Aluminium",
-          "text": "Jendela Aluminium 3\"<div>Ukuran Diameter 140cm</div>"
-        },
-        {
-          "yaw": 0.06836392196861318,
-          "pitch": -1.0411880159582036,
-          "title": "Plafon Gypsum",
-          "text": "Tinggi 3,10 m"
-        },
-        {
-          "yaw": 0.4283531386619579,
-          "pitch": 0.48715201500341543,
-          "title": "Granit 60x60",
-          "text": "Polished"
-        }
-      ]
-    },
-    {
-      "id": "8-bedroom-2",
-      "name": "BEDROOM 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6029947728834797,
-          "pitch": -0.1507056150107946,
-          "rotation": 0,
-          "target": "5-living-room"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.003052701779967748,
-          "pitch": -0.3356224758575692,
-          "title": "Jendela Aluminium",
-          "text": "Jendela Aluminium 3\"<div>Ukuran 160 x 200 cm</div>"
-        },
-        {
-          "yaw": -0.1028903198354616,
-          "pitch": 0.43692767096170826,
-          "title": "Bed Room 2",
-          "text": "Ukuran 2,9 x 3,5 m"
-        },
-        {
-          "yaw": -0.2631285963663803,
-          "pitch": -1.3317650140261907,
-          "title": "Plafon Gypsum",
-          "text": "Tinggi 3,10 m"
-        }
-      ]
-    },
-    {
-      "id": "9-bathroom-1",
-      "name": "BATHROOM 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.2310624936503345,
-          "pitch": -0.0004080133571502387,
-          "rotation": 0,
-          "target": "7-bedroom-1"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.121141611846479,
-          "pitch": 1.3293004485169124,
-          "title": "Keramik 30x30 Terazzo",
           "text": "<br>"
+        }
+      ]
+    },
+    {
+      "id": "7-dapur--r-makan",
+      "name": "DAPUR & R. MAKAN",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": -1.046373068492814,
-          "pitch": -0.13462113078935367,
-          "title": "Keramik 30x60",
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.1852734129040119,
+        "pitch": -0.009369988019356512,
+        "fov": 1.3474042771833745
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.4985147784235906,
+          "pitch": 0.12597036296092057,
+          "rotation": 0,
+          "target": "5-living-room"
+        },
+        {
+          "yaw": 1.0326964242731727,
+          "pitch": 0.2637219881507793,
+          "rotation": 0,
+          "target": "6-bar"
+        },
+        {
+          "yaw": -1.3973922063779725,
+          "pitch": -0.027303867380044977,
+          "rotation": 0,
+          "target": "13-backyard"
+        },
+        {
+          "yaw": -2.31190758530299,
+          "pitch": 0.009953175623007127,
+          "rotation": 0,
+          "target": "12-laundry"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.2601532872429324,
+          "pitch": -0.6746182873767061,
+          "title": "Plafon",
+          "text": "Tinggi 2,80 m dari lantai"
+        },
+        {
+          "yaw": -0.26790565364514585,
+          "pitch": 0.17587819417162187,
+          "title": "Granit 60x60 Polished",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.5052560399003951,
+          "pitch": 0.052934984084991754,
+          "title": "Granit 60x60 Polished",
           "text": "<br><div><br></div>"
         },
         {
-          "yaw": -2.262721351321634,
-          "pitch": -0.21706075702321215,
-          "title": "Pintu Aluminium&nbsp;",
-          "text": "Pintu Aluminium Ukuran 75x210 cm"
+          "yaw": -0.16234469732868462,
+          "pitch": 0.7253406611825337,
+          "title": "Granit 60x60 Polished",
+          "text": "<br><div><br></div>"
+        },
+        {
+          "yaw": 2.983432484983905,
+          "pitch": -0.38452111695514546,
+          "title": "Skylight",
+          "text": "Penutup Solarflat 3mm"
+        },
+        {
+          "yaw": -1.631728182755996,
+          "pitch": 0.03808473787385225,
+          "title": "Folding Door",
+          "text": "Kusen Aluminium 4\"<div>Ukuran 320x240 cm</div>"
+        },
+        {
+          "yaw": -0.6694587094878983,
+          "pitch": -0.0826790166525253,
+          "title": "Bouvenlight",
+          "text": "Kusen Aluminium<div>Ukuran 120x50 cm</div>"
+        },
+        {
+          "yaw": 3.07870354333118,
+          "pitch": 0.07345251348238158,
+          "title": "Kamprot Halus",
+          "text": "Finish Cat Eksterior"
         }
       ]
     },
     {
-      "id": "10-bathroom-sharing",
-      "name": "BATHROOM SHARING",
+      "id": "8-k-tidur-utama",
+      "name": "K. TIDUR UTAMA",
       "levels": [
         {
           "tileSize": 256,
@@ -744,23 +582,263 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.7147018122655648,
-          "pitch": -0.1135853744890305,
+          "yaw": 2.9429059158099005,
+          "pitch": -0.02158780773211788,
+          "rotation": 0,
+          "target": "9-k-mandi-k-utama"
+        },
+        {
+          "yaw": -2.259987210730067,
+          "pitch": 0.15696074745523525,
           "rotation": 0,
           "target": "5-living-room"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.8893344296537995,
-          "pitch": -0.10530982580316461,
-          "title": "Pintu Aluminium",
-          "text": "Ukuran 75x210 cm"
+          "yaw": 0.15007636234966704,
+          "pitch": -0.040087124663086726,
+          "title": "Jendela Aluminium 3\"",
+          "text": "Ukuran 160x200 cm"
+        },
+        {
+          "yaw": -2.2050185763396577,
+          "pitch": 0.041859317666737894,
+          "title": "Pintu K. Tidur Utama",
+          "text": "Kusen Aluminium 3\"<div>Ukuran 80x240 cm<br><div>Daun Pintu Blockboard Finish HPL</div></div>"
         }
       ]
     },
     {
-      "id": "11-backyard",
+      "id": "9-k-mandi-k-utama",
+      "name": "K. MANDI (K. UTAMA)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 0.0013425609630726143,
+        "pitch": 0.27922564297682406,
+        "fov": 1.3474042771833745
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.479351353219032,
+          "pitch": 0.035150131214367164,
+          "rotation": 0,
+          "target": "8-k-tidur-utama"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.13828377919647927,
+          "pitch": 0.13680182508260508,
+          "title": "Keramik 30x60&nbsp;",
+          "text": "Carrara White"
+        },
+        {
+          "yaw": 0.08589366850401525,
+          "pitch": 1.5102989572371337,
+          "title": "Keramik 30x30",
+          "text": "Terazzo"
+        },
+        {
+          "yaw": -2.4785484704082386,
+          "pitch": 0.2155960899059579,
+          "title": "Pintu K. Mandi",
+          "text": "Kusen 3\"<div>Ukuran 75x210 cm</div><div>Daun Pintu Aluminium</div>"
+        }
+      ]
+    },
+    {
+      "id": "10-k-tidur-anak",
+      "name": "K. TIDUR ANAK",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.2364439689996214,
+          "pitch": -0.03230759172925701,
+          "rotation": 0,
+          "target": "5-living-room"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.03343020615764658,
+          "pitch": -0.1204757037052886,
+          "title": "Jendela Aluminium",
+          "text": "Kusen Aluminium 3\"<div>Ukuran 160x200 cm</div><div><div><br></div></div>"
+        },
+        {
+          "yaw": 2.212067581315111,
+          "pitch": -0.24642561250134065,
+          "title": "Pintu K. Tidur Anak",
+          "text": "Kusen Aluminium 3\"<div>Ukuran 80x240 cm</div><div>Daun pintu blockboard finish HPL</div>"
+        }
+      ]
+    },
+    {
+      "id": "11-k-mandi-sharing",
+      "name": "K. MANDI (SHARING)",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 2.560131576910191,
+        "pitch": 0.13225369749479654,
+        "fov": 1.3474042771833745
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.811600923274028,
+          "pitch": -0.25350846710655084,
+          "rotation": 0,
+          "target": "5-living-room"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.20403492064861695,
+          "pitch": -0.040390633862081415,
+          "title": "Keramik 30x60",
+          "text": "Carrara White"
+        },
+        {
+          "yaw": -0.5580921205642255,
+          "pitch": 1.4049581290616864,
+          "title": "Keramik 30x30",
+          "text": "Terazzo"
+        },
+        {
+          "yaw": -2.829609973974561,
+          "pitch": -0.04895489719662294,
+          "title": "Pintu K. Mandi Sharing",
+          "text": "Kusen Aluminium 3\"<div>Ukuran 75x210 cm</div><div>Daun Pintu Aluminium</div>"
+        }
+      ]
+    },
+    {
+      "id": "12-laundry",
+      "name": "LAUNDRY",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 3.001966313430243,
+        "pitch": -0.005863325630338423,
+        "fov": 1.3474042771833745
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.811068908405585,
+          "pitch": -0.000004381883703885592,
+          "rotation": 0,
+          "target": "7-dapur--r-makan"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.2011094591267959,
+          "pitch": -1.2047137605677385,
+          "title": "Skylight",
+          "text": "Solarflat 3mm\""
+        },
+        {
+          "yaw": 1.2110021813804916,
+          "pitch": -0.17612571210604244,
+          "title": "Roster Finish Cat Eksterior",
+          "text": "Ukuran 15x25cm"
+        },
+        {
+          "yaw": -0.9676961326385207,
+          "pitch": 1.4032752375336308,
+          "title": "Granite 60x60 Matt",
+          "text": "Terazzo Grey"
+        },
+        {
+          "yaw": 2.811871599838848,
+          "pitch": 0.13484525201234554,
+          "title": "Pintu Laundry",
+          "text": "Kusen Aluminium 3\"<div>Ukuran 80x240 cm</div><div>Daun pintu Alumunium</div>"
+        }
+      ]
+    },
+    {
+      "id": "13-backyard",
       "name": "BACKYARD",
       "levels": [
         {
@@ -789,92 +867,41 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.08570014147613492,
-          "pitch": -0.033107291001726935,
+          "yaw": -0.0669004642436768,
+          "pitch": -0.044500335077714226,
           "rotation": 0,
-          "target": "6-dining--kitchen"
+          "target": "7-dapur--r-makan"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.2879128292906685,
-          "pitch": 0.44873845904983156,
-          "title": "Granit 60x60",
-          "text": "Matt"
+          "yaw": -1.8012972786305212,
+          "pitch": 1.0151433724553112,
+          "title": "Decking",
+          "text": "Text"
         },
         {
-          "yaw": 1.3662234857152757,
-          "pitch": -0.03286142323117325,
-          "title": "Roster 15x30 cm",
-          "text": "<br>"
+          "yaw": -0.245927156911673,
+          "pitch": 0.7329000161479726,
+          "title": "Granit 60x60 Matt",
+          "text": "Text"
         },
         {
-          "yaw": -1.4857757083203254,
-          "pitch": -0.07974039861656124,
-          "title": "Dinding",
-          "text": "Kamprot Halus Finish Cat Eksterior"
-        }
-      ]
-    },
-    {
-      "id": "12-laundry-room",
-      "name": "LAUNDRY ROOM",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 1.7822340614769123,
+          "pitch": -0.11613437158602302,
+          "title": "Roster Finish Cat Eksterior",
+          "text": "Ukuran 15x25 cm"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.07687183765068362,
-          "pitch": -0.08547387126835737,
-          "rotation": 0,
-          "target": "6-dining--kitchen"
-        },
-        {
-          "yaw": -1.530186954253784,
-          "pitch": -0.11623851829455312,
-          "rotation": 0,
-          "target": "11-backyard"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.393161781250564,
-          "pitch": -0.34755803237798055,
-          "title": "Dinding",
-          "text": "Kamprot Halus Fin. Cat Eksterior"
-        },
-        {
-          "yaw": 0.31126285473599324,
-          "pitch": -0.0033704850859610502,
-          "title": "Laundry Room",
-          "text": "Ukuran Ruangan 3,9 x 2,15 m"
+          "yaw": -0.4453626891432876,
+          "pitch": -0.7468241022327344,
+          "title": "Plafon Gypsum",
+          "text": "Tinggi 2,70 cm"
         }
       ]
     }
   ],
-  "name": "DESIGN RENOVASI RUMAH BAPAK ARIF - CICALENGKA, KAB. BANDUNG",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
